@@ -30,9 +30,3 @@ cc_library(
     hdrs = ["greeter_client.h"],
     deps = ["//examples/helloworld/proto:cpp"],
 )
-
-cc_binary(
-    name = "async_client",
-    srcs = ["greeter_async_client.cc"],
-    deps = ["//examples/helloworld/proto:cpp"],
-)
